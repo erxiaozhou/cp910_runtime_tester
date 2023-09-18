@@ -1,0 +1,8 @@
+[2023-03-29 17:39:20.231] [error] loading failed: integer too large, Code: 0x35
+[2023-03-29 17:39:20.231] [error]     Bytecode offset: 0x000000d0
+[2023-03-29 17:39:20.231] [error]     At AST node: instruction
+[2023-03-29 17:39:20.231] [error]     At AST node: expression
+[2023-03-29 17:39:20.231] [error]     At AST node: code segment
+[2023-03-29 17:39:20.231] [error]     At AST node: code section
+[2023-03-29 17:39:20.231] [error]     At AST node: module
+[2023-03-29 17:39:20.231] [error]     File name: "/home/zph/DGit/wasm_projects/runtime_tester/tests/wasm_wats/f32.abs_100.wasm"

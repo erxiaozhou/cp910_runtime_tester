@@ -1,0 +1,1 @@
+Error loading WebAssembly binary file: Module was malformed: Invalid signed LEB encoding: unused bits in final byte must match the most-significant used bit

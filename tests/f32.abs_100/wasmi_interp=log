@@ -1,0 +1,1 @@
+Error: failed to parse and validate Wasm module tests/wasm_wats/f32.abs_100.wasm: invalid var_i32: integer too large (at offset 0xd4)
