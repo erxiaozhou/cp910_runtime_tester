@@ -140,6 +140,8 @@ def byte2str(bs):
 def get_logger(logger_name, log_file_name):
     logger = logging.getLogger(logger_name)
     logger.setLevel('DEBUG')
+    if not Path(log_file_name).parent.exists():
+        Path(log_file_name).parent.mkdir(parents=True)
     file = logging.FileHandler(log_file_name, mode='w', encoding='utf8')
     fmt = logging.Formatter(
         fmt="%(levelname)-9s - %(filename)-8s : %(lineno)s line - %(message)s")

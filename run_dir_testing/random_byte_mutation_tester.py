@@ -81,6 +81,6 @@ def testing_without_mutation_and_collect_can_init_tc(exec_paths, impls, tc_paths
                 can_init_tc_paths.append(tc_path)
             post_process_arrording_to_diff_reason(exec_paths, tc_dumped_data_dir, exec_info, tc_path, tc_name, difference_reason)
         except (RuntimeError, Exception) as e:
-            raise e
+            # raise e
             cp_file(tc_path, exec_paths.except_dir)
     return exec_info, can_init_tc_paths
